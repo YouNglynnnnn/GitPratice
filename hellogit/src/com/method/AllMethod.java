@@ -9,6 +9,7 @@ public class AllMethod {
     public String method1(String name) {
         User user = new User();
         user.setName("yanglin");
+        user.setPassword("123");
         return "hello" + user.getName();
     }
 }
