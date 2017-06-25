@@ -8,6 +8,6 @@ import com.method.AllMethod;
 public class HelloGit {
     public static void main(String[] args) {
         AllMethod method = new AllMethod();
-        method.method1(git);
+        method.method1("git");
     }
 }
